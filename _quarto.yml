@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Brand Example"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "The New York Primes"
+      - href: News.qmd
+        text: "News"
+      - href: World.qmd
+        text: "World"
+      - href: Lifestyle.qmd
+        text: "Lifestyle"
+      - href: Technology.qmd
+        text: "Technology"
+    tools:
+      - icon: github
+        href: https://github.com/nyt
+      - icon: telegram
+        href: https://t.me/nyt
+    theme:
+       - cosmo
+       - brand

@@ -1,0 +1,71 @@
+# META INFORMATION
+meta:
+  name:
+    short: "NYT"
+    full: "The New York Times"
+  link:
+    home: "https://www.nytimes.com"
+
+# LOGO
+logo:
+  images:
+    header:
+      path: "logos/nyt-header.png"
+      alt: "The New York Times logo"
+    print:
+      path: "logos/nyt-header.png"
+      alt: "The New York Times print edition logo"
+  small: "logos/nyt-icon.png"
+  medium:
+    light: header
+    dark: header
+  large: print
+
+# COLOR PALETTE
+color:
+  palette:
+    black: "#121212"
+    white: "#FFFFFF"
+    gray: "#E0E0E0"
+    dark-gray: "#666666"
+    muted-gray: "#999999"
+    nyt-blue: "#00008B"
+    nyt-purple: "#551A8B"
+    # Bootstrap aliases
+    blue: nyt-blue
+    purple: nyt-purple
+  foreground: black
+  background: white
+  primary: black
+  secondary: dark-gray
+  link: nyt-blue
+
+# TYPOGRAPHY
+typography:
+  fonts:
+    - family: Georgia
+      source: system
+    - family: "Charlemagne Pro"
+      source: file
+      files:
+        - path: "fonts/charlemagne-pro/CharlemagnePro-Bold.otf"
+          weight: 700
+        - path: "fonts/charlemagne-pro/CharlemagnePro-Regular.otf"
+          weight: 400
+    - family: "Roboto Slab"
+      source: google
+      weight: [400, 700]
+  base:
+    family: Georgia
+    size: 16px
+    line-height: 1.6
+  headings:
+    family: "Charlemagne Pro"
+    weight: 700
+    line-height: 1.2
+  monospace:
+    family: "Courier New, monospace"
+  link:
+    color: link
+    decoration: underline
+    weight: 700
